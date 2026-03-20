@@ -1,50 +1,1375 @@
----
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
----
+ <!DOCTYPE html>
 
-<!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ventral and umbilical hernia repair: symptoms, types, robotic surgery, mesh options, and recovery. Dr. Kakarla — 2,500+ robotic procedures in Gwinnett County, GA.">
+<link rel="canonical" href="https://gwinnettroboticsurgery.com/conditions/ventral-umbilical-hernia/">
+<link rel="alternate" hreflang="es" href="https://gwinnettroboticsurgery.com/es/condiciones/hernia-ventral/">
+<link rel="alternate" hreflang="en" href="https://gwinnettroboticsurgery.com/conditions/ventral-umbilical-hernia/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#0f2040">
+
+<!-- OG -->
+
+<meta property="og:title" content="Ventral & Umbilical Hernia — Robotic Repair | Gwinnett Robotic & Hernia Surgery">
+<meta property="og:description" content="Ventral and umbilical hernia repair: types, robotic surgery, recovery, and what to expect.">
+<meta property="og:url" content="https://gwinnettroboticsurgery.com/conditions/ventral-umbilical-hernia/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://gwinnettroboticsurgery.com/images/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Gwinnett Robotic & Hernia Surgery">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Inguinal Hernia — Symptoms, Causes & Robotic Repair">
+<meta name="twitter:description" content="Learn about inguinal hernia symptoms, causes, robotic repair options, and recovery.">
+
+<title>Ventral &amp; Umbilical Hernia — Robotic Repair | Gwinnett Robotic &amp; Hernia Surgery</title>
+
+<!-- Structured Data: BreadcrumbList -->
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://gwinnettroboticsurgery.com/"},
+{"@type":"ListItem","position":2,"name":"Conditions","item":"https://gwinnettroboticsurgery.com/conditions/"},
+{"@type":"ListItem","position":3,"name":"Ventral & Umbilical Hernia"}]}
+</script>
+
+<!-- Structured Data: FAQPage -->
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is a ventral hernia?","acceptedAnswer":{"@type":"Answer","text":"A ventral hernia is a bulge through the front wall of the abdomen. Types include umbilical (at the navel), incisional (at a prior surgical site), and epigastric (above the navel). Surgery is the only permanent fix."}},
+{"@type":"Question","name":"Do all ventral hernias need surgery?","acceptedAnswer":{"@type":"Answer","text":"Not all. Very small, asymptomatic hernias may be monitored. But hernias tend to enlarge over time, and elective repair is safer than emergency repair."}},
+{"@type":"Question","name":"How long is recovery after ventral hernia repair?","acceptedAnswer":{"@type":"Answer","text":"Most patients return to desk work within 1-2 weeks. Lifting is restricted to 10 pounds for 4 weeks. An abdominal binder is worn when active for 4 weeks."}}
+]}
+</script>
+
+<!-- Structured Data: MedicalClinic -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["MedicalClinic", "Physician"],
+  "name": "Gwinnett Robotic & Hernia Surgery",
+  "alternateName": "Dr. Venkata Kakarla, MD, FACS",
+  "url": "https://gwinnettroboticsurgery.com/",
+  "telephone": "+1-770-962-9977",
+  "faxNumber": "+1-770-339-9804",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "631 Professional Drive, Suite 300",
+    "addressLocality": "Lawrenceville",
+    "addressRegion": "GA",
+    "postalCode": "30046",
+    "addressCountry": "US"
+  },
+  "medicalSpecialty": ["Robotic Surgery", "Hernia Repair", "General Surgery"],
+  "areaServed": ["Lawrenceville", "Gwinnett County", "Duluth", "Atlanta"]
+}
+</script>
+
+<style>
+/* ══════════════════════════════════════════════════════════════
+   GWINNETT ROBOTIC SURGERY — REDESIGNED CONDITION PAGE
+   Typography-first · Zero icons · Premium medical authority
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── FONTS (self-hosted in production; CDN for prototype) ── */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap');
+
+/* ── TOKENS ── */
+:root {
+  --navy-950:#050e1a; --navy-900:#0f2040; --navy-800:#152b52; --navy-700:#1a3563;
+  --blue-600:#1a68c2; --blue-500:#2479d8; --blue-200:#bfdbf7; --blue-100:#ddeeff; --blue-50:#f0f7ff;
+  --stone-900:#1c1917; --stone-700:#44403c; --stone-600:#57534e; --stone-500:#78716c;
+  --stone-400:#a8a29e; --stone-300:#d6d3d1; --stone-200:#e7e5e4; --stone-100:#f5f5f4; --stone-50:#fafaf9;
+  --green-700:#15803d; --green-50:#f0fdf4;
+  --red-700:#b91c1c; --red-50:#fef2f2;
+  --amber-700:#b45309; --amber-50:#fffbeb;
+  --font:'DM Sans',system-ui,-apple-system,sans-serif;
+  --font-display:'DM Serif Display',Georgia,serif;
+  --r-sm:.25rem; --r-md:.5rem; --r-lg:.75rem; --r-xl:1rem; --r-2xl:1.5rem;
+}
+
+/* ── RESET ── */
+*,*::before,*::after{box-sizing:border-box}
+html{font-family:var(--font);font-size:17px;line-height:1.65;color:var(--stone-900);background:#fff;-webkit-font-smoothing:antialiased}
+body{margin:0;min-height:100vh;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--blue-600);text-decoration:underline;text-underline-offset:3px}
+a:hover{color:var(--navy-900)}
+h1,h2,h3,h4{font-family:var(--font-display);line-height:1.15;color:var(--navy-900);margin-top:0;font-weight:400;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4vw + .5rem,3.25rem)}
+h2{font-size:clamp(1.5rem,2.5vw + .5rem,2rem);margin-bottom:.75rem}
+h3{font-size:clamp(1.1rem,1.5vw + .3rem,1.3rem);font-family:var(--font);font-weight:600}
+p{margin-top:0;margin-bottom:1rem;overflow-wrap:break-word}
+:focus-visible{outline:3px solid var(--blue-600);outline-offset:3px;border-radius:var(--r-sm)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ── LAYOUT ── */
+.container{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.container-narrow{max-width:820px;margin:0 auto;padding:0 1.5rem}
+
+/* ── HEADER ── */
+.site-header{background:var(--navy-900);position:sticky;top:0;z-index:100;box-shadow:0 1px 0 rgba(255,255,255,.06)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.site-logo{display:flex;flex-direction:column;text-decoration:none;color:#fff;line-height:1.3}
+.logo-top{font-size:.95rem;font-weight:700;letter-spacing:-.01em}
+.logo-sub{font-size:.65rem;font-weight:400;opacity:.6;letter-spacing:.04em;text-transform:uppercase}
+.header-phone{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600;display:none}
+.nav-cta{display:inline-flex;align-items:center;background:var(--blue-600);color:#fff;font-size:.8rem;font-weight:600;padding:.5rem 1rem;border-radius:var(--r-md);text-decoration:none;min-height:40px}
+.nav-cta:hover{background:var(--navy-700);color:#fff}
+@media(min-width:640px){.header-phone{display:inline-flex}}
+
+/* ── BREADCRUMB ── */
+.breadcrumb{padding:.6rem 1.5rem;background:var(--stone-50);border-bottom:1px solid var(--stone-200);font-size:.78rem;color:var(--stone-500)}
+.breadcrumb a{color:var(--stone-500);text-decoration:none}
+.breadcrumb a:hover{color:var(--blue-600)}
+.breadcrumb .sep{margin:0 .35rem;opacity:.4}
+
+/* ── PAGE HERO ── */
+.page-hero{background:linear-gradient(135deg,var(--navy-950) 0%,var(--navy-800) 50%,var(--navy-700) 100%);padding:3.5rem 1.5rem 3rem;color:#fff;position:relative;overflow:hidden}
+.page-hero::after{content:'';position:absolute;top:-50%;right:-20%;width:60%;height:200%;background:radial-gradient(ellipse,rgba(36,121,216,.1) 0%,transparent 70%);pointer-events:none}
+.eyebrow{font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-200);margin-bottom:.75rem;position:relative;z-index:1}
+.page-hero h1{color:#fff;margin-bottom:.75rem;position:relative;z-index:1}
+.page-hero .lead{font-size:1.05rem;line-height:1.65;color:rgba(255,255,255,.7);max-width:55ch;margin:0;position:relative;z-index:1}
+
+/* ── EMERGENCY BANNER (compact, above quick facts) ── */
+.emergency-banner{background:#fef2f2;border-bottom:1px solid #fca5a5;padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:center;gap:.75rem;flex-wrap:wrap;font-size:.85rem}
+.emergency-banner-dot{width:8px;height:8px;border-radius:50%;background:var(--red-700);flex-shrink:0;animation:pulse-dot 2s infinite}
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.4}}
+@media(prefers-reduced-motion:reduce){.emergency-banner-dot{animation:none}}
+.emergency-banner a{color:var(--red-700);font-weight:600;text-decoration:none}
+.emergency-banner a:hover{text-decoration:underline}
+
+/* ── JUMP NAV ── */
+.jump-nav{background:#fff;border-bottom:1px solid var(--stone-200);padding:.625rem 1.5rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* ── QUICK LINK CARDS ── */
+.quick-links{padding:1.25rem 1.5rem;background:#fff;border-bottom:1px solid var(--stone-200)}
+.quick-links-grid{max-width:820px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.quick-link-card{padding:1.25rem 1.5rem;border-radius:var(--r-xl);text-decoration:none;display:block;transition:border-color .15s,box-shadow .15s}
+.quick-link-card:hover{box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.quick-link-card.blue-card{background:var(--blue-50);border:1px solid var(--blue-200)}
+.quick-link-card.blue-card:hover{border-color:var(--blue-600)}
+.quick-link-card.dark-card{background:linear-gradient(135deg,var(--navy-900),var(--navy-800));border:1px solid var(--navy-700)}
+.quick-link-card.dark-card:hover{border-color:var(--blue-500)}
+.ql-label{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.375rem}
+.blue-card .ql-label{color:var(--blue-600)}
+.dark-card .ql-label{color:var(--blue-200)}
+.ql-text{font-size:.88rem;line-height:1.5;margin-bottom:.5rem}
+.blue-card .ql-text{color:var(--stone-700)}
+.dark-card .ql-text{color:rgba(255,255,255,.8)}
+.ql-link{font-size:.78rem;font-weight:600}
+.blue-card .ql-link{color:var(--blue-600)}
+.dark-card .ql-link{color:var(--blue-200)}
+@media(max-width:550px){.quick-links-grid{grid-template-columns:1fr}}
+.jump-nav-inner{max-width:820px;margin:0 auto;display:flex;gap:.35rem;flex-wrap:nowrap}
+.jump-nav a{display:inline-flex;padding:.35rem .7rem;font-size:.72rem;font-weight:600;color:var(--stone-500);text-decoration:none;white-space:nowrap;border-radius:100px;transition:background .15s,color .15s}
+.jump-nav a:hover{background:var(--blue-50);color:var(--blue-600)}
+
+/* ── QUICK FACTS ── */
+.quick-facts{background:var(--blue-50);border-bottom:1px solid var(--blue-200);padding:1.25rem 1.5rem}
+.quick-facts-grid{max-width:820px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.quick-fact{text-align:center}
+.quick-fact-value{font-family:var(--font-display);font-size:1.3rem;color:var(--navy-900);line-height:1.2;display:block}
+.quick-fact-label{font-size:.68rem;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--stone-500);margin-top:.2rem;display:block}
+.quick-facts-note{max-width:820px;margin:.75rem auto 0;font-size:.78rem;color:var(--stone-500);text-align:center}
+@media(max-width:600px){.quick-facts-grid{grid-template-columns:repeat(2,1fr);gap:.75rem}}
+
+/* ── SECTIONS ── */
+.content-section{padding:3.5rem 1.5rem}
+.content-section.alt{background:var(--stone-50)}
+.section-label{font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-600);margin-bottom:.75rem}
+
+/* ── DIRECT ANSWER ── */
+.direct-answer{font-size:1.08rem;line-height:1.75;color:var(--stone-700);max-width:65ch;border-left:4px solid var(--blue-600);padding-left:1.5rem;margin-bottom:2rem}
+
+/* ── CONTENT CARD ── */
+.content-card{background:#fff;border:1px solid var(--stone-200);border-radius:var(--r-xl);padding:2rem;margin-bottom:1.5rem}
+.content-card.blue{background:var(--blue-50);border-color:var(--blue-200)}
+
+/* ── FIRST VISIT BLOCK ── */
+.first-visit{margin:2.5rem 0;background:linear-gradient(135deg,var(--blue-50) 0%,#fff 100%);border:1px solid var(--blue-200);border-radius:var(--r-2xl);padding:2.25rem;position:relative;overflow:hidden}
+.first-visit::before{content:'';position:absolute;top:0;left:0;width:5px;height:100%;background:var(--blue-600);border-radius:var(--r-2xl) 0 0 var(--r-2xl)}
+.first-visit h3{margin-bottom:1.25rem;font-size:1.15rem}
+.visit-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.visit-step{text-align:center}
+.visit-step-num{width:36px;height:36px;border-radius:50%;background:var(--blue-600);color:#fff;font-family:var(--font-display);font-size:.95rem;display:inline-flex;align-items:center;justify-content:center;margin-bottom:.625rem}
+.visit-step-title{font-weight:600;font-size:.9rem;color:var(--navy-900);margin:0 0 .25rem;line-height:1.3}
+.visit-step-desc{font-size:.82rem;color:var(--stone-500);margin:0;line-height:1.5}
+@media(max-width:550px){.visit-steps{grid-template-columns:1fr;gap:1.25rem}.visit-step{text-align:left;display:grid;grid-template-columns:36px 1fr;gap:.75rem;align-items:start}.visit-step-num{margin:0}}
+
+/* ── SYMPTOM LIST ── */
+.symptom-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.5rem}
+.symptom-list li{padding:.875rem 1.25rem;background:var(--stone-50);border-radius:var(--r-lg);font-size:.93rem;color:var(--stone-700);line-height:1.5;border-left:3px solid var(--blue-200);transition:border-left-color .15s}
+.symptom-list li:hover{border-left-color:var(--blue-600)}
+.symptom-list li strong{color:var(--navy-900)}
+.content-section.alt .symptom-list li{background:#fff}
+
+/* ── ALERT (emergency) ── */
+.alert-emergency{background:var(--red-50);border:1px solid #fca5a5;border-left:5px solid var(--red-700);border-radius:var(--r-lg);padding:1.5rem 1.75rem;margin:2rem 0}
+.alert-emergency-title{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red-700);margin-bottom:.5rem}
+.alert-emergency p{font-size:.93rem;color:var(--stone-700);margin:0;line-height:1.6}
+
+/* ── PATIENT QUOTE ── */
+.patient-quote{margin:2rem 0;padding:1.5rem 2rem;background:#fff;border:1px solid var(--stone-200);border-radius:var(--r-xl);position:relative}
+.content-section.alt .patient-quote{background:var(--stone-100)}
+.patient-quote p{font-size:1.05rem;font-style:italic;line-height:1.7;color:var(--stone-600);margin:0 0 .5rem}
+.patient-quote .attribution{font-size:.78rem;font-weight:600;color:var(--stone-500);font-style:normal}
+.patient-quote::before{content:'\201C';position:absolute;top:-.15rem;left:1rem;font-family:var(--font-display);font-size:3.5rem;color:var(--blue-200);line-height:1}
+
+/* ── TWO COLUMN CARDS ── */
+.type-cards{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+.type-card{background:#fff;border:1px solid var(--stone-200);border-radius:var(--r-xl);padding:1.5rem 1.75rem}
+.type-card-label{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-600);margin-bottom:.5rem}
+.type-card h4{font-family:var(--font-display);font-size:1.15rem;margin:0 0 .5rem;font-weight:400}
+.type-card p{font-size:.88rem;color:var(--stone-600);margin:0;line-height:1.6}
+@media(max-width:640px){.type-cards{grid-template-columns:1fr}}
+
+/* ── RISK FACTOR GRID ── */
+.risk-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.risk-col h3{font-size:.85rem;margin-bottom:.75rem;color:var(--stone-500);font-weight:600;letter-spacing:.03em}
+.risk-list{list-style:none;padding:0;margin:0;font-size:.88rem;color:var(--stone-600)}
+.risk-list li{padding:.4rem 0;border-bottom:1px solid var(--stone-200);line-height:1.45}
+.risk-list li:last-child{border:none}
+.risk-list li strong{color:var(--stone-900)}
+@media(max-width:550px){.risk-grid{grid-template-columns:1fr;gap:1.25rem}}
+
+/* ── TREATMENT STEPS ── */
+.treatment-steps{display:flex;flex-direction:column;margin:1.5rem 0 2rem;position:relative}
+.treatment-step{display:grid;grid-template-columns:52px 1fr;position:relative}
+.step-marker{display:flex;flex-direction:column;align-items:center}
+.step-dot{width:38px;height:38px;border-radius:50%;background:var(--blue-600);color:#fff;font-family:var(--font-display);font-size:.95rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;z-index:1}
+.step-dot.preferred{background:var(--navy-900);width:42px;height:42px;box-shadow:0 0 0 4px rgba(26,104,194,.15)}
+.step-line{width:2px;flex:1;background:var(--blue-200);margin:4px auto;min-height:16px}
+.treatment-step:last-child .step-line{display:none}
+.step-content{padding:0 0 2rem 1rem}
+.step-content h4{font-family:var(--font);font-weight:600;font-size:.95rem;margin:.35rem 0 .35rem;color:var(--navy-900)}
+.step-content p{font-size:.88rem;color:var(--stone-600);margin:0;line-height:1.6}
+.step-badge{display:inline-block;font-size:.62rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:var(--blue-100);color:var(--blue-600);padding:.2rem .6rem;border-radius:100px;margin-top:.5rem}
+
+/* ── CALLOUT STAT ── */
+.callout-stat{display:flex;align-items:center;gap:1.5rem;padding:1.75rem 2rem;background:linear-gradient(135deg,var(--navy-900),var(--navy-800));border-radius:var(--r-xl);margin:2rem 0;color:#fff}
+.callout-stat-number{font-family:var(--font-display);font-size:2.5rem;line-height:1;color:var(--blue-200);flex-shrink:0}
+.callout-stat-text{font-size:.9rem;line-height:1.5;color:rgba(255,255,255,.8)}
+.callout-stat-text strong{color:#fff}
+@media(max-width:500px){.callout-stat{flex-direction:column;gap:.75rem;text-align:center;padding:1.5rem}.callout-stat-number{font-size:2rem}}
+
+/* ── RECOVERY TIMELINE ── */
+.recovery-timeline{display:flex;flex-direction:column;margin:1.5rem 0}
+.recovery-phase{display:grid;grid-template-columns:120px 1fr}
+.phase-label{padding:1.25rem 1rem 1.25rem 0;text-align:right;border-right:3px solid var(--blue-200);position:relative}
+.phase-label::after{content:'';position:absolute;right:-7px;top:1.5rem;width:11px;height:11px;border-radius:50%;background:var(--blue-600);border:2px solid #fff;box-shadow:0 0 0 2px var(--blue-200)}
+.phase-label-text{font-family:var(--font-display);font-size:.92rem;color:var(--navy-900);display:block;line-height:1.25}
+.phase-label-sub{font-size:.68rem;color:var(--stone-500);display:block;margin-top:.15rem}
+.phase-content{padding:1.15rem 0 1.15rem 1.5rem;font-size:.88rem;color:var(--stone-600);line-height:1.6;border-bottom:1px solid var(--stone-200)}
+.recovery-phase:last-child .phase-content{border:none}
+@media(max-width:500px){.recovery-phase{grid-template-columns:85px 1fr}.phase-label{padding-right:.5rem}.phase-content{padding-left:1rem}}
+
+/* ── FAQ ACCORDION ── */
+.faq-section{margin-top:1.5rem}
+.faq-item{border:1px solid var(--stone-200);border-radius:var(--r-lg);margin-bottom:.6rem;overflow:hidden;background:#fff;transition:border-color .15s}
+.faq-item:hover{border-color:var(--blue-200)}
+.faq-item[open]{border-color:var(--blue-600);background:var(--blue-50)}
+.faq-item summary{font-size:.93rem;font-weight:600;color:var(--navy-900);padding:1rem 1.5rem;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:52px;line-height:1.4}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-size:1.25rem;font-weight:300;color:var(--stone-400);flex-shrink:0;transition:transform .2s;width:20px;text-align:center}
+.faq-item[open] summary::after{content:'\2212';color:var(--blue-600)}
+.faq-answer{padding:0 1.5rem 1.15rem;font-size:.88rem;line-height:1.7;color:var(--stone-600)}
+.faq-answer p{margin:0}
+
+/* ── CONSULTATION QUESTIONS (collapsible) ── */
+.consult-questions{margin:2rem 0;border:1px solid var(--blue-200);border-radius:var(--r-xl);overflow:hidden;background:var(--blue-50)}
+.consult-questions summary{font-size:.93rem;font-weight:600;color:var(--navy-900);padding:1.125rem 1.5rem;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between}
+.consult-questions summary::-webkit-details-marker{display:none}
+.consult-questions summary::after{content:'+';font-size:1.15rem;font-weight:300;color:var(--blue-600)}
+.consult-questions[open] summary::after{content:'\2212'}
+.consult-questions-list{padding:0 1.5rem 1.25rem;margin:0}
+.consult-questions-list li{font-size:.88rem;color:var(--stone-600);margin-bottom:.4rem;line-height:1.5}
+
+/* ── AUTHOR ATTRIBUTION ── */
+.author-block{display:flex;align-items:center;gap:1rem;padding:1.5rem;background:var(--stone-50);border:1px solid var(--stone-200);border-radius:var(--r-xl);margin-top:3rem}
+.author-avatar{width:56px;height:56px;border-radius:50%;object-fit:cover;flex-shrink:0;border:2px solid var(--blue-200)}
+.author-info{font-size:.82rem;color:var(--stone-500);line-height:1.5}
+.author-info strong{color:var(--stone-700);display:block;font-size:.88rem}
+.author-info a{color:var(--blue-600)}
+.author-info time{color:var(--stone-400)}
+
+/* ── RELATED PILLS ── */
+.related-strip{padding:1.25rem 1.5rem;background:var(--stone-50);border-top:1px solid var(--stone-200);border-bottom:1px solid var(--stone-200)}
+.related-strip-inner{max-width:820px;margin:0 auto}
+.related-strip-label{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--stone-500);margin-bottom:.6rem}
+.related-pills{display:flex;flex-wrap:wrap;gap:.45rem}
+.related-pill{display:inline-flex;padding:.45rem .9rem;background:#fff;border:1px solid var(--stone-300);border-radius:100px;font-size:.78rem;font-weight:500;color:var(--stone-700);text-decoration:none;white-space:nowrap;transition:border-color .15s,background .15s}
+.related-pill:hover{border-color:var(--blue-600);background:var(--blue-50);color:var(--blue-600)}
+
+/* ── MID-PAGE CTA ── */
+.mid-cta{margin:2rem 0;padding:1.5rem 2rem;background:linear-gradient(135deg,var(--navy-900),var(--navy-800));border-radius:var(--r-xl);display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.mid-cta p{color:rgba(255,255,255,.85);font-size:.93rem;margin:0;font-weight:500}
+.mid-cta p strong{color:#fff}
+.mid-cta-actions{display:flex;gap:.75rem;flex-shrink:0}
+.mid-cta .btn{font-size:.82rem;padding:.6rem 1.25rem;min-height:42px}
+@media(max-width:550px){.mid-cta{flex-direction:column;text-align:center}.mid-cta-actions{width:100%;justify-content:center}}
+
+/* ── PREP CHECKLIST ── */
+.prep-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+.prep-card{background:#fff;border:1px solid var(--stone-200);border-radius:var(--r-xl);padding:1.5rem}
+.prep-card-title{font-size:.88rem;font-weight:600;color:var(--navy-900);margin:0 0 .75rem}
+.prep-list{list-style:none;padding:0;margin:0}
+.prep-list li{font-size:.85rem;color:var(--stone-600);padding:.35rem 0;border-bottom:1px solid var(--stone-100);line-height:1.5}
+.prep-list li:last-child{border:none}
+.prep-list li strong{color:var(--stone-900)}
+@media(max-width:550px){.prep-grid{grid-template-columns:1fr}}
+
+/* ── SURGERY DAY STEPS ── */
+.surgery-day-steps{display:flex;flex-direction:column;gap:0;margin:1.5rem 0}
+.sd-step{display:grid;grid-template-columns:80px 1fr;border-bottom:1px solid var(--stone-200);padding:1rem 0}
+.sd-step:last-child{border:none}
+.sd-time{font-family:var(--font-display);font-size:.9rem;color:var(--navy-900);padding-top:.1rem}
+.sd-desc{font-size:.88rem;color:var(--stone-600);line-height:1.6}
+.sd-desc strong{color:var(--stone-900)}
+
+/* ── LOCATION CARDS ── */
+.location-cards{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+.location-card-item{border:1px solid var(--stone-200);border-radius:var(--r-xl);padding:1.5rem 1.75rem;background:#fff;position:relative}
+.location-card-item.primary{border-color:var(--blue-200);background:var(--blue-50)}
+.location-card-item.primary::before{content:'';position:absolute;top:0;left:0;width:100%;height:4px;background:var(--blue-600);border-radius:var(--r-xl) var(--r-xl) 0 0}
+.loc-label{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-600);margin-bottom:.375rem}
+.loc-name{font-family:var(--font-display);font-size:1.05rem;color:var(--navy-900);margin:0 0 .375rem;font-weight:400}
+.loc-addr{font-size:.82rem;color:var(--stone-600);margin:0 0 .25rem;line-height:1.45}
+.loc-detail{font-size:.78rem;color:var(--stone-500);margin:.5rem 0 0;line-height:1.5}
+.loc-link{font-size:.82rem;font-weight:600;margin-top:.625rem;display:inline-block}
+@media(max-width:640px){.location-cards{grid-template-columns:1fr}}
+
+.surgery-center-img{width:100%;border-radius:var(--r-xl);margin-bottom:1.5rem;border:1px solid var(--stone-200)}
+
+.hospital-note{margin-top:1.5rem;padding:1.25rem 1.5rem;background:var(--stone-50);border:1px solid var(--stone-200);border-radius:var(--r-lg);font-size:.88rem;color:var(--stone-600);line-height:1.6}
+.hospital-note strong{color:var(--stone-900)}
+
+/* ── CTA STRIP ── */
+.cta-strip{background:linear-gradient(135deg,var(--navy-900),var(--navy-700));padding:3.5rem 1.5rem;text-align:center;color:#fff}
+.cta-strip h2{color:#fff;margin-bottom:.75rem}
+.cta-strip p{color:rgba(255,255,255,.7);font-size:1rem;margin-bottom:2rem;max-width:50ch;margin-left:auto;margin-right:auto}
+.cta-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-weight:600;font-size:.88rem;border-radius:var(--r-md);padding:.75rem 1.75rem;min-height:48px;text-decoration:none;cursor:pointer;border:2px solid transparent;font-family:var(--font)}
+.btn-primary{background:var(--blue-600);color:#fff;border-color:var(--blue-600)}
+.btn-primary:hover{background:var(--navy-800);border-color:var(--navy-800);color:#fff}
+.btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-outline:hover{background:rgba(255,255,255,.1);border-color:#fff;color:#fff}
+
+/* ── MOBILE ── */
+@media(max-width:640px){
+  html{font-size:16px}
+  .content-section{padding:2.5rem 1rem}
+  .container-narrow{padding:0 1rem}
+  .page-hero{padding:2.5rem 1rem 2rem}
+  .cta-actions{flex-direction:column;align-items:stretch}
+  .content-card{padding:1.5rem}
+  .first-visit{padding:1.75rem 1.5rem}
+  .author-block{flex-direction:column;text-align:center}
+}
+
+/* ══════════════════════════════════════════════════════════════
+   DARK MODE
+   ══════════════════════════════════════════════════════════════ */
+@media(prefers-color-scheme:dark){
+  :root{
+    --navy-950:#0a1628; --navy-900:#0f2040; --navy-800:#152b52; --navy-700:#1a3563;
+    --blue-600:#4a9aea; --blue-500:#5ca8f0; --blue-200:#1e3a5f; --blue-100:#162d4a; --blue-50:#0d1f35;
+    --stone-900:#f5f5f4; --stone-700:#d6d3d1; --stone-600:#c4c0bc; --stone-500:#a8a29e;
+    --stone-400:#928c88; --stone-300:#2a2725; --stone-200:#1f1d1b; --stone-100:#171514; --stone-50:#111010;
+    --green-700:#4ade80; --green-50:#0a2014;
+    --red-700:#f87171; --red-50:#2a0f0f;
+  }
+  html{background:#111010;color:#e7e5e4}
+  body{background:#111010}
+
+  /* Header — keep navy */
+  .site-header{background:#0a1220;border-bottom:1px solid rgba(255,255,255,.08)}
+
+  /* Hero — darken gradient */
+  .page-hero{background:linear-gradient(135deg,#050a14 0%,#0d1a30 50%,#122240 100%)}
+  .page-hero .lead{color:rgba(255,255,255,.65)}
+
+  /* Breadcrumb */
+  .breadcrumb{background:#151312;border-color:#2a2725}
+
+  /* Emergency banner */
+  .emergency-banner{background:#2a1010;border-color:#7f1d1d}
+  .emergency-banner span{color:#e7e5e4}
+
+  /* Quick facts */
+  .quick-facts{background:#0d1f35;border-color:#1e3a5f}
+  .quick-fact-value{color:#e7e5e4}
+  .quick-fact-label{color:#a8a29e}
+  .quick-facts-note{color:#a8a29e}
+
+  /* Jump nav */
+  .jump-nav{background:#151312;border-color:#2a2725}
+
+  /* Quick link cards */
+  .quick-links{background:#151312;border-color:#2a2725}
+  .quick-link-card.blue-card{background:#0d1f35;border-color:#1e3a5f}
+  .blue-card .ql-label{color:#5ca8f0}
+  .blue-card .ql-text{color:#c4c0bc}
+  .blue-card .ql-link{color:#5ca8f0}
+  .quick-link-card.dark-card{background:linear-gradient(135deg,#0a1220,#0d1a30);border-color:#1e3a5f}
+  .jump-nav a{color:#a8a29e}
+  .jump-nav a:hover{background:#1e3a5f;color:#5ca8f0}
+
+  /* Sections */
+  .content-section{background:#111010}
+  .content-section.alt{background:#171514}
+
+  /* Text colors */
+  h1,h2,h3,h4{color:#f5f5f4}
+  .section-label{color:#4a9aea}
+  a{color:#5ca8f0}
+  a:hover{color:#93c5fd}
+  p{color:#c4c0bc}
+
+  /* Direct answer */
+  .direct-answer{color:#c4c0bc;border-left-color:#4a9aea}
+
+  /* Eyebrow */
+  .eyebrow{color:#5ca8f0}
+
+  /* Content cards */
+  .content-card{background:#1a1816;border-color:#2a2725}
+  .content-card.blue{background:#0d1f35;border-color:#1e3a5f}
+
+  /* First visit block */
+  .first-visit{background:linear-gradient(135deg,#0d1f35 0%,#151312 100%);border-color:#1e3a5f}
+  .first-visit::before{background:#4a9aea}
+  .first-visit h3{color:#f5f5f4}
+  .visit-step-title{color:#f5f5f4}
+  .visit-step-desc{color:#a8a29e}
+  .visit-step-num{background:#4a9aea}
+
+  /* Symptom list */
+  .symptom-list li{background:#1a1816;border-left-color:#1e3a5f;color:#c4c0bc}
+  .symptom-list li:hover{border-left-color:#4a9aea}
+  .symptom-list li strong{color:#f5f5f4}
+  .content-section.alt .symptom-list li{background:#1f1d1b}
+
+  /* Alert emergency */
+  .alert-emergency{background:#2a0f0f;border-color:#7f1d1d;border-left-color:#f87171}
+  .alert-emergency-title{color:#f87171}
+  .alert-emergency p{color:#d6d3d1}
+  .alert-emergency a{color:#f87171}
+
+  /* Patient quote */
+  .patient-quote{background:#1a1816;border-color:#2a2725}
+  .patient-quote p{color:#c4c0bc}
+  .patient-quote::before{color:#1e3a5f}
+  .patient-quote .attribution{color:#928c88}
+  .content-section.alt .patient-quote{background:#1f1d1b}
+
+  /* Type cards */
+  .type-card{background:#1a1816;border-color:#2a2725}
+  .type-card h4{color:#f5f5f4}
+  .type-card p{color:#a8a29e}
+  .type-card-label{color:#4a9aea}
+
+  /* Risk grid */
+  .risk-col h3{color:#a8a29e}
+  .risk-list li{border-color:#2a2725;color:#c4c0bc}
+  .risk-list li strong{color:#f5f5f4}
+
+  /* Treatment steps */
+  .step-dot{background:#4a9aea}
+  .step-dot.preferred{background:#5ca8f0;box-shadow:0 0 0 4px rgba(74,154,234,.2)}
+  .step-line{background:#1e3a5f}
+  .step-content h4{color:#f5f5f4}
+  .step-content p{color:#c4c0bc}
+  .step-badge{background:#0d1f35;color:#5ca8f0}
+
+  /* da Vinci figure */
+  figure{background:#171514 !important;border-color:#2a2725 !important}
+  figcaption{color:#928c88 !important}
+
+  /* Callout stat — keep dark, just tweak */
+  .callout-stat{background:linear-gradient(135deg,#0a1220,#0d1a30)}
+
+  /* Location cards */
+  .location-card-item{background:#1a1816;border-color:#2a2725}
+  .location-card-item.primary{background:#0d1f35;border-color:#1e3a5f}
+  .location-card-item.primary::before{background:#4a9aea}
+  .loc-label{color:#4a9aea}
+  .loc-name{color:#f5f5f4}
+  .loc-addr{color:#a8a29e}
+  .loc-detail{color:#a8a29e}
+  .loc-detail strong{color:#c4c0bc}
+
+  /* Hospital note */
+  .hospital-note{background:#171514;border-color:#2a2725;color:#c4c0bc}
+  .hospital-note strong{color:#f5f5f4}
+
+  /* Mid CTA — keep dark */
+  .mid-cta{background:linear-gradient(135deg,#0a1220,#0d1a30)}
+
+  /* Prep grid */
+  .prep-card{background:#1a1816;border-color:#2a2725}
+  .prep-card-title{color:#f5f5f4}
+  .prep-list li{color:#c4c0bc;border-color:#1f1d1b}
+  .prep-list li strong{color:#f5f5f4}
+
+  /* Surgery day steps */
+  .sd-step{border-color:#2a2725}
+  .sd-time{color:#f5f5f4}
+  .sd-desc{color:#c4c0bc}
+  .sd-desc strong{color:#f5f5f4}
+
+  /* Recovery timeline */
+  .phase-label{border-right-color:#1e3a5f}
+  .phase-label::after{background:#4a9aea;border-color:#111010;box-shadow:0 0 0 2px #1e3a5f}
+  .phase-label-text{color:#f5f5f4}
+  .phase-label-sub{color:#928c88}
+  .phase-content{color:#c4c0bc;border-color:#2a2725}
+
+  /* FAQ */
+  .faq-item{background:#1a1816;border-color:#2a2725}
+  .faq-item:hover{border-color:#1e3a5f}
+  .faq-item[open]{background:#0d1f35;border-color:#4a9aea}
+  .faq-item summary{color:#f5f5f4}
+  .faq-item summary::after{color:#928c88}
+  .faq-item[open] summary::after{color:#4a9aea}
+  .faq-answer{color:#c4c0bc}
+  .faq-answer a{color:#5ca8f0}
+
+  /* Consult questions */
+  .consult-questions{background:#0d1f35;border-color:#1e3a5f}
+  .consult-questions summary{color:#f5f5f4}
+  .consult-questions summary::after{color:#4a9aea}
+  .consult-questions-list li{color:#c4c0bc}
+
+  /* Author block */
+  .author-block{background:#171514;border-color:#2a2725}
+  .author-info{color:#a8a29e}
+  .author-info strong{color:#d6d3d1}
+  .author-avatar{border-color:#1e3a5f}
+
+  /* Related pills */
+  .related-strip{background:#151312;border-color:#2a2725}
+  .related-strip-label{color:#928c88}
+  .related-pill{background:#1a1816;border-color:#2a2725;color:#c4c0bc}
+  .related-pill:hover{background:#0d1f35;border-color:#4a9aea;color:#5ca8f0}
+
+  /* CTA strip — keep dark, tweak */
+  .cta-strip{background:linear-gradient(135deg,#0a1220,#0d1a30)}
+
+  /* Why Dr Kakarla section — already dark, just adjust for consistency */
+  #why-kakarla{background:linear-gradient(135deg,#050a14,#0d1a30) !important}
+
+  /* Buttons */
+  .btn-primary{background:#2563eb;border-color:#2563eb;color:#fff}
+  .btn-primary:hover{background:#1d5fc0;border-color:#1d5fc0}
+  .nav-cta{background:#2563eb}
+  .nav-cta:hover{background:#1d5fc0;color:#fff}
+
+  /* Header phone */
+  .header-phone{color:rgba(255,255,255,.85)}
+
+  /* Surgery center image */
+  .surgery-center-img{border-color:#2a2725}
+
+  /* Scrollbar */
+  ::-webkit-scrollbar{width:8px}
+  ::-webkit-scrollbar-track{background:#111010}
+  ::-webkit-scrollbar-thumb{background:#2a2725;border-radius:4px}
+}
+
+/* ══════════════════════════════════════════════════════════════
+   PRINT STYLESHEET
+   ══════════════════════════════════════════════════════════════ */
+@media print {
+  /* Header / footer / interactive */
+  .site-header, .breadcrumb, .emergency-banner, .nav-cta, .header-phone,
+  .related-strip, .cta-strip, .consult-questions summary::after,
+  .faq-item summary::after { display:none !important; }
+
+  /* Remove backgrounds for ink saving */
+  body, html, .content-section, .content-section.alt, .quick-facts, .page-hero,
+  .content-card, .content-card.blue, .first-visit, .symptom-list li, .faq-item,
+  .faq-item[open], .patient-quote, .author-block, .type-card,
+  .location-card-item, .location-card-item.primary, .hospital-note,
+  .consult-questions {
+    background:#fff !important;
+    color:#000 !important;
+    border-color:#ccc !important;
+    box-shadow:none !important;
+  }
+
+  .page-hero { padding:1rem 0;border-bottom:3px solid #000 }
+  .page-hero *, .page-hero h1, .page-hero .lead, .page-hero .eyebrow { color:#000 !important }
+  .page-hero::after { display:none }
+
+  .callout-stat { background:#f5f5f5 !important;border:2px solid #333 }
+  .callout-stat, .callout-stat * { color:#000 !important }
+
+  /* Why Dr. Kakarla section - strip dark bg for print */
+  #why-kakarla { background:#fff !important }
+  #why-kakarla, #why-kakarla * { color:#000 !important }
+  #why-kakarla .symptom-list li { background:#f5f5f5 !important;border-left-color:#999 !important }
+  #why-kakarla .section-label { color:#333 !important }
+
+  /* Quick link cards - strip for print */
+  .quick-links { display:none !important }
+
+  /* Force all FAQs open */
+  .faq-item { break-inside:avoid }
+  .faq-item summary, details summary { font-weight:700 }
+
+  /* Print header */
+  body::before {
+    content: 'Inguinal Hernia — Patient Information | Gwinnett Robotic & Hernia Surgery | (770) 962-9977';
+    display:block;
+    font-size:9pt;
+    color:#666;
+    border-bottom:1px solid #ccc;
+    padding:4pt 0 6pt;
+    margin-bottom:12pt;
+  }
+
+  /* Print footer */
+  body::after {
+    content:'gwinnettroboticsurgery.com/conditions/ventral-umbilical-hernia/ | (770) 962-9977 | 631 Professional Dr, Ste 300, Lawrenceville GA 30046';
+    display:block;
+    font-size:8pt;
+    color:#999;
+    border-top:1px solid #ccc;
+    padding:6pt 0 0;
+    margin-top:12pt;
+  }
+
+  /* Typography adjustments */
+  html { font-size:11pt;line-height:1.5 }
+  h1 { font-size:18pt }
+  h2 { font-size:14pt }
+  .direct-answer { border-left:3px solid #333;font-size:11pt }
+  .symptom-list li { border-left:2px solid #999 }
+  a { color:#000;text-decoration:underline }
+  .quick-facts { border:1px solid #ccc;padding:8pt }
+  .quick-fact-value { color:#000 !important;font-size:12pt }
+  .quick-fact-label { color:#666 !important }
+
+  /* Recovery timeline */
+  .phase-label { border-right-color:#999 }
+  .phase-label::after { background:#333;box-shadow:none;border-color:#fff }
+
+  /* Step dots */
+  .step-dot, .step-dot.preferred { background:#333 !important;box-shadow:none }
+  .step-line { background:#ccc }
+  .step-badge { background:#eee;color:#333;border:1px solid #ccc }
+
+  /* Avoid page breaks inside key blocks */
+  .content-card, .first-visit, .alert-emergency, .patient-quote,
+  .recovery-phase, .treatment-step, .callout-stat, .author-block,
+  .location-card-item, .hospital-note {
+    break-inside:avoid;
+  }
+
+  /* Location cards: side by side in print too */
+  .location-cards { grid-template-columns:1fr 1fr }
+  .location-card-item.primary::before { background:#333 !important }
+
+  /* Surgery center image */
+  .surgery-center-img { max-height:200px;object-fit:cover }
+
+  /* Force all details open for print */
+  details, details[open] { display:block !important }
+  details > *:not(summary) { display:block !important }
+  details .faq-answer { display:block !important }
+  details .consult-questions-list { display:block !important }
+
+  /* Emergency alert stays visible */
+  .alert-emergency { border:2px solid #c00 !important;background:#fff !important }
+  .alert-emergency-title { color:#c00 !important }
+}
+</style>
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-logo">
+      <span class="logo-top">Gwinnett Robotic &amp; Hernia Surgery</span>
+      <span class="logo-sub">Dr. Venkata Kakarla, MD, FACS</span>
+    </a>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="tel:(770) 962-9977" class="header-phone">(770) 962-9977</a>
+      <a href="/request-appointment/" class="nav-cta">Request a Callback</a>
+    </div>
+  </div>
+</header>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <div class="container-narrow">
+    <a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/conditions/">Conditions</a><span class="sep">&rsaquo;</span>Ventral &amp; Umbilical Hernia
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container-narrow">
+    <p class="eyebrow">Conditions &middot; Abdominal Wall</p>
+    <h1>Ventral &amp; Umbilical Hernia</h1>
+    <p class="lead">Robotic and open repair of umbilical, incisional, epigastric, and complex ventral hernias &mdash; from small outpatient repairs to abdominal wall reconstruction.</p>
+  </div>
+</div>
+
+<div class="emergency-banner">
+  <span class="emergency-banner-dot" aria-hidden="true"></span>
+  <span>Sudden severe pain at a hernia that won&rsquo;t push back in?</span>
+  <a href="#emergency">Call our office or seek care&nbsp;&darr;</a>
+</div>
+
+<div class="quick-facts">
+  <div class="quick-facts-grid">
+    <div class="quick-fact"><span class="quick-fact-value">30&ndash;60 min</span><span class="quick-fact-label">Typical procedure</span></div>
+    <div class="quick-fact"><span class="quick-fact-value">Same day</span><span class="quick-fact-label">Most go home</span></div>
+    <div class="quick-fact"><span class="quick-fact-value">1&ndash;2 weeks</span><span class="quick-fact-label">Back to desk work</span></div>
+    <div class="quick-fact"><span class="quick-fact-value">4 weeks</span><span class="quick-fact-label">Activity restrictions</span></div>
+  </div>
+  <p class="quick-facts-note">Covered by Medicare, Medicaid, and most major insurance. No referral needed unless your insurance requires one.</p>
+</div>
+
+<div class="quick-links">
+  <div class="quick-links-grid">
+    <a href="#why-robotic" class="quick-link-card blue-card">
+      <p class="ql-label">Why Robotic Surgery?</p>
+      <p class="ql-text">Less pain. Faster recovery. Better outcomes. Precise mesh placement behind the abdominal wall &mdash; no large incision needed.</p>
+      <span class="ql-link">Learn more &darr;</span>
+    </a>
+    <a href="#why-kakarla" class="quick-link-card dark-card">
+      <p class="ql-label">Why Dr. Kakarla?</p>
+      <p class="ql-text">2,500+ robotic procedures across 3 continents. Experience that refined the technique into a tailored approach for each patient.</p>
+      <span class="ql-link">Learn more &darr;</span>
+    </a>
+  </div>
+</div>
+
+<nav class="jump-nav" aria-label="Page sections">
+  <div class="jump-nav-inner">
+    <a href="#overview">Overview</a>
+    <a href="#types">Types</a>
+    <a href="#symptoms">Symptoms</a>
+    <a href="#diagnosis">Diagnosis</a>
+    <a href="#treatment">Treatment</a>
+    <a href="#why-robotic">Why Robotic</a>
+    <a href="#why-kakarla">Why Dr. Kakarla</a>
+    <a href="#where">Where</a>
+    <a href="#prepare">Prepare</a>
+    <a href="#surgery-day">Surgery Day</a>
+    <a href="#recovery">Recovery</a>
+    <a href="#risks">Risks</a>
+    <a href="#cost">Cost</a>
+    <a href="#faq">FAQ</a>
+  </div>
+</nav>
+
+<main id="main" tabindex="-1">
+
+<!-- ══ SECTION 1: Overview ══ -->
+
+<section class="content-section" id="overview">
+  <div class="container-narrow">
+    <p class="direct-answer">A ventral hernia is a bulge through a weakness or opening in the front wall of the abdomen. Umbilical hernias (at the navel), incisional hernias (at a prior surgical scar), and epigastric hernias (between the navel and breastbone) are all types of ventral hernia. Surgery is the only way to permanently repair them &mdash; there is no brace, medication, or exercise that can close the opening.</p>
+
+```
+<p>Ventral hernias are among the most common conditions Dr. Kakarla treats. They range from small umbilical hernias that can be repaired in 30 minutes to complex incisional hernias requiring abdominal wall reconstruction. Dr. Kakarla tailors the approach &mdash; open, laparoscopic, or robotic &mdash; to the size, location, and complexity of your hernia.</p>
+
+<div class="first-visit">
+  <h3>Have a Bulge in Your Abdomen? Here&rsquo;s What Happens Next</h3>
+  <div class="visit-steps">
+    <div class="visit-step">
+      <span class="visit-step-num">1</span>
+      <div>
+        <p class="visit-step-title">Call us directly</p>
+        <p class="visit-step-desc">No referral needed unless your insurance requires one. You do not need to see your PCP first or get testing done before your visit. Same-day and next-day appointments available.</p>
+      </div>
+    </div>
+    <div class="visit-step">
+      <span class="visit-step-num">2</span>
+      <div>
+        <p class="visit-step-title">30-minute evaluation</p>
+        <p class="visit-step-desc">Dr. Kakarla examines the hernia, reviews any imaging, and explains your surgical options. Most hernias can be diagnosed by physical exam alone.</p>
+      </div>
+    </div>
+    <div class="visit-step">
+      <span class="visit-step-num">3</span>
+      <div>
+        <p class="visit-step-title">Scheduled quickly</p>
+        <p class="visit-step-desc">Surgery is typically scheduled within 1&ndash;2 weeks. We verify your insurance and you know your out-of-pocket cost before the procedure.</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- ══ SECTION 2: Types ══ -->
+
+<section class="content-section alt" id="types">
+  <div class="container-narrow">
+    <p class="section-label">Understanding your hernia</p>
+    <h2>Types of Ventral Hernia</h2>
+
+```
+<ul class="symptom-list">
+  <li><strong><a href="/conditions/umbilical-hernia/">Umbilical hernia</a></strong> &mdash; a bulge at or near the navel. The most common type in adults. Often develops gradually from increased abdominal pressure (obesity, pregnancy, heavy lifting, chronic cough). Present from birth in some patients</li>
+  <li><strong><a href="/conditions/incisional-hernia/">Incisional hernia</a></strong> &mdash; develops at the site of a previous surgical incision. Can occur months to years after any abdominal surgery (C-section, appendectomy, laparotomy, prior hernia repair). Occurs in approximately 10&ndash;15% of abdominal surgeries</li>
+  <li><strong>Epigastric hernia</strong> &mdash; a small bulge in the midline between the navel and breastbone. Usually contains fat rather than intestine</li>
+  <li><strong>Spigelian hernia</strong> &mdash; a rare hernia through the lateral abdominal wall. Can be difficult to diagnose on exam alone and may require CT imaging</li>
+  <li><strong>Recurrent hernia</strong> &mdash; a hernia that returns after a prior repair. Dr. Kakarla has extensive experience with recurrent hernias from other surgeons, where the robotic platform&rsquo;s precision is especially valuable in scarred tissue</li>
+</ul>
+
+<p style="font-size:.88rem;color:var(--stone-500)"><strong>Diastasis recti</strong> (separation of the abdominal muscles without a true hernia defect) is a related condition that sometimes accompanies ventral hernias. Dr. Kakarla can evaluate whether a diastasis requires surgical repair during your consultation.</p>
+```
+
+  </div>
+</section>
+
+<!-- ══ SECTION 3: Symptoms ══ -->
+
+<section class="content-section" id="symptoms">
+  <div class="container-narrow">
+    <p class="section-label">Recognizing the signs</p>
+    <h2>Symptoms of a Ventral Hernia</h2>
+
+```
+<ul class="symptom-list">
+  <li><strong>Visible bulge</strong> &mdash; most noticeable when standing, straining, or coughing. May flatten when lying down</li>
+  <li><strong>Pain or discomfort</strong> &mdash; aching, pulling, or pressure at the hernia site, especially with activity or at the end of the day</li>
+  <li><strong>Pain with lifting, straining, or prolonged standing</strong></li>
+  <li><strong>Sensation of heaviness or dragging</strong> in the abdomen</li>
+  <li><strong>Nausea or vomiting</strong> &mdash; if bowel becomes trapped (incarceration)</li>
+</ul>
+
+<p>Some ventral hernias cause no symptoms at all and are discovered incidentally on imaging or during an exam. However, hernias tend to enlarge over time, and elective repair when you are healthy carries significantly lower risk than emergency repair.</p>
+
+<div class="alert-emergency" id="emergency">
+  <p class="alert-emergency-title">When to seek urgent care</p>
+  <p><strong>Call our office first</strong> if your hernia becomes more painful, larger, or harder to push back in &mdash; we can often evaluate you quickly and guide you on next steps. If the hernia is suddenly painful, firm, and will not push back in, especially with nausea, vomiting, or fever, <strong>go to the emergency room or call 911</strong>. These may be signs of incarceration or strangulation requiring emergency surgery.</p>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- ══ SECTION 4: Diagnosis ══ -->
+
+<section class="content-section alt" id="diagnosis">
+  <div class="container-narrow">
+    <p class="section-label">Getting answers</p>
+    <h2>How Ventral Hernias Are Diagnosed</h2>
+    <p>Most ventral hernias are diagnosed by physical examination. Dr. Kakarla examines the abdomen while you stand and strain to make the hernia visible. Additional testing may include:</p>
+    <ul class="symptom-list">
+      <li><strong>CT scan of the abdomen</strong> &mdash; ordered for larger or complex hernias to measure the defect size, identify the hernia contents, evaluate for multiple defects, and plan the surgical approach. Essential for recurrent and incisional hernias</li>
+      <li><strong>Ultrasound</strong> &mdash; occasionally used for small hernias that are difficult to feel on exam</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══ SECTION 5: Treatment ══ -->
+
+<section class="content-section" id="treatment">
+  <div class="container-narrow">
+    <p class="section-label">Your treatment options</p>
+    <h2>How Ventral Hernias Are Repaired</h2>
+    <p>Surgery is the only permanent fix. Hernias do not heal on their own, and abdominal binders provide temporary symptom relief but do not repair the defect. The approach is discussed and decided together with you based on hernia size, location, complexity, and your medical history:</p>
+
+```
+<div class="treatment-steps">
+  <div class="treatment-step">
+    <div class="step-marker">
+      <div class="step-dot preferred" aria-label="Approach 1">1</div>
+      <div class="step-line"></div>
+    </div>
+    <div class="step-content">
+      <h4>Robotic Hernia Repair</h4>
+      <p>Dr. Kakarla&rsquo;s preferred approach for most ventral hernias. Through <strong>3 small incisions on the side</strong> of the abdomen, the <a href="/procedures/robotic/">da Vinci system</a> provides 3D magnified visualization and wristed instruments. The hernia contents are reduced, the defect is closed with sutures, and mesh is placed for reinforcement &mdash; all without a large incision over the hernia.</p>
+      <span class="step-badge">Dr. Kakarla&rsquo;s preferred approach</span>
+    </div>
+  </div>
+  <div class="treatment-step">
+    <div class="step-marker">
+      <div class="step-dot" aria-label="Approach 2">2</div>
+      <div class="step-line"></div>
+    </div>
+    <div class="step-content">
+      <h4>Open Repair</h4>
+      <p>An incision directly over the hernia. Used for <strong>very small hernias (less than 1 cm)</strong> where the defect can be closed with sutures and mesh through a small incision, or for very large or complex hernias requiring abdominal wall reconstruction with component separation.</p>
+    </div>
+  </div>
+  <div class="treatment-step">
+    <div class="step-marker">
+      <div class="step-dot" aria-label="Approach 3">3</div>
+    </div>
+    <div class="step-content">
+      <h4>Component Separation / Abdominal Wall Reconstruction</h4>
+      <p>For large or complex hernias where the abdominal wall muscles have pulled apart significantly, the muscles are released and advanced to close the defect &mdash; essentially rebuilding the abdominal wall. This is a more extensive procedure typically reserved for large incisional hernias, recurrent hernias, or hernias with significant loss of domain.</p>
+    </div>
+  </div>
+</div>
+
+<h3>Mesh Reinforcement</h3>
+<p>Most ventral hernia repairs use mesh to reinforce the repair and reduce recurrence. Without mesh, recurrence rates are significantly higher. Dr. Kakarla uses a <strong>Symbotex composite mesh</strong> (Medtronic) &mdash; a flat, three-dimensional polyester mesh with an absorbable collagen barrier on one side:</p>
+<ul class="symptom-list">
+  <li><strong>Collagen barrier</strong> &mdash; the absorbable film prevents the mesh from adhering to internal organs when placed inside the abdomen</li>
+  <li><strong>Three-dimensional polyester structure</strong> &mdash; provides long-term reinforcement and promotes tissue integration on the abdominal wall side</li>
+  <li><strong>Pre-placed sutures</strong> &mdash; facilitate precise, efficient fixation during surgery</li>
+  <li><strong>Available in multiple shapes and sizes</strong> &mdash; selected to match your specific defect</li>
+</ul>
+<p style="font-size:.88rem;color:var(--stone-500)">Mesh concerns in the media primarily involve vaginal mesh products &mdash; a completely different device. Hernia mesh has a long safety record and remains the standard of care endorsed by all major surgical societies.</p>
+```
+
+  </div>
+</section>
+
+<!-- ══ SECTION 6: Why Robotic Surgery? ══ -->
+
+<section class="content-section alt" id="why-robotic">
+  <div class="container-narrow">
+    <p class="section-label">The robotic advantage</p>
+    <h2>Why Robotic Ventral Hernia Repair?</h2>
+    <ul class="symptom-list">
+      <li><strong>No incision over the hernia</strong> &mdash; the 3 small port incisions are placed on the side of the abdomen, away from the hernia. This avoids cutting through the weakened tissue and reduces wound complications</li>
+      <li><strong>3D magnified visualization</strong> &mdash; the surgeon sees the defect and surrounding anatomy in high-definition depth</li>
+      <li><strong>Wristed instruments</strong> &mdash; allow precise suturing of the defect closed and accurate mesh placement from inside the abdomen</li>
+      <li><strong>Less tissue disruption</strong> &mdash; smaller incisions mean less pain, less infection risk, and faster recovery</li>
+      <li><strong>Lower recurrence rates</strong> &mdash; precise mesh placement and suture closure of the defect contribute to a more durable repair</li>
+      <li><strong>Ideal for recurrent hernias</strong> &mdash; robotic precision is especially valuable when operating through scar tissue from prior repairs</li>
+      <li><strong>Tremor filtration and motion scaling</strong> &mdash; the system filters natural hand tremor for sub-millimeter precision</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══ SECTION 7: Why Dr. Kakarla? ══ -->
+
+<section class="content-section" id="why-kakarla" style="background:linear-gradient(135deg,var(--navy-950),var(--navy-800));color:#fff">
+  <div class="container-narrow">
+    <p class="section-label" style="color:var(--blue-200)">Your surgeon</p>
+    <h2 style="color:#fff">Why Dr. Kakarla?</h2>
+    <ul class="symptom-list" style="gap:.625rem">
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">2,500+ robotic procedures</strong> &mdash; among the highest volume in the region, well beyond the learning curve where outcomes plateau</li>
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">Surgical experience across three continents</strong> &mdash; this international breadth across open, laparoscopic, and robotic techniques has refined Dr. Kakarla&rsquo;s approach, allowing him to draw on a wider range of techniques than surgeons trained in a single system</li>
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">Extensive recurrent hernia experience</strong> &mdash; Dr. Kakarla repairs a high volume of failed hernias from other surgeons, where precision and judgment matter most</li>
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">Fellowship-trained</strong> in minimally invasive and robotic surgery at the University of Illinois at Chicago</li>
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">Board certified</strong> by the American Board of Surgery</li>
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">Tailored approach</strong> &mdash; Dr. Kakarla selects robotic, laparoscopic, or open technique based on your hernia size, location, and complexity</li>
+      <li style="background:rgba(255,255,255,.06);border-left-color:rgba(255,255,255,.15);color:rgba(255,255,255,.85)"><strong style="color:#fff">Same-day and next-day consultations</strong> &mdash; rapid access without long waits</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══ SECTION 8: Where ══ -->
+
+<section class="content-section alt" id="where">
+  <div class="container-narrow">
+    <p class="section-label">Your surgical locations</p>
+    <h2>Where Your Surgery Happens</h2>
+    <img src="northside-outpatient-surgery-center.jpg" alt="Northside Gwinnett Outpatient Surgery Center" width="680" height="340" loading="lazy" class="surgery-center-img">
+    <p>Most ventral and umbilical hernia repairs are performed as outpatient procedures &mdash; you arrive in the morning and go home the same day.</p>
+    <div class="location-cards">
+      <div class="location-card-item primary">
+        <p class="loc-label">Robotic repair &mdash; standard cases</p>
+        <p class="loc-name">Northside Gwinnett Outpatient Surgery Center</p>
+        <p class="loc-addr">2200 Medical Center Blvd, Suite 100<br>Lawrenceville, GA 30046</p>
+      </div>
+      <div class="location-card-item">
+        <p class="loc-label">Small open repairs</p>
+        <p class="loc-name">Gwinnett Surgery Center</p>
+        <p class="loc-addr">631 Professional Drive, Suite 300<br>Lawrenceville, GA 30046</p>
+      </div>
+    </div>
+    <div class="hospital-note">
+      <strong>Hospital-based surgery when needed:</strong> Large, complex, or recurrent hernias requiring abdominal wall reconstruction or potential overnight stay are performed at <strong>Northside Hospital Gwinnett</strong> (1000 Medical Center Blvd, Lawrenceville). The best facility for your case is discussed and decided together during your consultation.
+    </div>
+    <div class="mid-cta">
+      <p><strong>Ready to schedule?</strong> Same-day and next-day appointments available.</p>
+      <div class="mid-cta-actions">
+        <a href="tel:(770) 962-9977" class="btn btn-primary">Call (770) 962-9977</a>
+        <a href="/request-appointment/" class="btn btn-outline">Request a Callback</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SECTION 9: Preparing ══ -->
+
+<section class="content-section" id="prepare">
+  <div class="container-narrow">
+    <p class="section-label">Before your procedure</p>
+    <h2>Preparing for Surgery</h2>
+    <p>You will receive a phone call from the surgery center or hospital 1&ndash;2 days before your procedure with your specific arrival time and final instructions.</p>
+
+```
+<h3>While You Wait for Surgery</h3>
+<div class="content-card">
+  <ul class="prep-list">
+    <li><strong>Support the hernia</strong> when coughing, sneezing, or straining &mdash; place your palm over the area for gentle counter-pressure</li>
+    <li><strong>Avoid heavy lifting</strong> and straining that worsens the bulge</li>
+    <li><strong>If the bulge increases</strong>, try gentle manual reduction &mdash; lie on your back and use steady, gentle pressure to push it back in. Do not force it</li>
+    <li><strong>Call our office</strong> if the hernia becomes painful, hard, or will not push back in</li>
+  </ul>
+</div>
+
+<h3>Optimizing Your Health Before Surgery</h3>
+<div class="content-card">
+  <ul class="prep-list">
+    <li><strong>Stop smoking</strong> &mdash; at least 2&ndash;4 weeks before surgery. Smoking significantly impairs wound healing and increases infection and recurrence risk. This is especially important for ventral hernia repair</li>
+    <li><strong>Weight management</strong> &mdash; excess abdominal weight increases pressure on the repair and raises recurrence risk. For significantly overweight patients whose hernia is currently manageable, Dr. Kakarla may recommend working with your primary care doctor on weight-loss strategies (including newer GLP-1 medications) before proceeding with surgery. Each case is evaluated individually</li>
+    <li><strong>Stay active</strong> &mdash; walking and light exercise within the limits of your hernia symptoms</li>
+    <li><strong>Eat a high-protein diet</strong> &mdash; protein is essential for tissue repair and healing</li>
+  </ul>
+</div>
+
+<h3>Anesthesia</h3>
+<p>Ventral hernia repair is performed under <strong>general anesthesia</strong> &mdash; you will be fully asleep. Very small open repairs may be performed under local anesthesia with sedation. A board-certified anesthesiologist manages your anesthesia throughout.</p>
+
+<h3>The Night Before</h3>
+<div class="content-card">
+  <ul class="prep-list">
+    <li><strong>No solid food after midnight.</strong> Clear liquids may be permitted up to 2 hours before &mdash; the surgery center will confirm</li>
+    <li><strong>Medications:</strong> Dr. Kakarla will specify which to take and which to hold</li>
+    <li><strong>Blood thinners:</strong> Specific stop/restart instructions provided</li>
+    <li><strong>GLP-1 medications</strong> (Ozempic, Wegovy, Mounjaro, etc.): Current hospital protocol requires stopping one week before surgery and a liquid-only diet the day before. Inform our office when scheduling</li>
+    <li><strong>No need to shave</strong> the surgical area</li>
+  </ul>
+</div>
+
+<h3>What to Bring and Wear</h3>
+<div class="prep-grid">
+  <div class="prep-card">
+    <p class="prep-card-title">Bring with you</p>
+    <ul class="prep-list">
+      <li>Photo ID and insurance card</li>
+      <li>List of current medications</li>
+      <li>Co-pay if required</li>
+      <li>Phone and charger</li>
+    </ul>
+  </div>
+  <div class="prep-card">
+    <p class="prep-card-title">Wear / plan for</p>
+    <ul class="prep-list">
+      <li>Loose, comfortable clothing (elastic waist)</li>
+      <li>Slip-on shoes</li>
+      <li>Leave jewelry and valuables at home</li>
+      <li>No contact lenses &mdash; wear glasses</li>
+    </ul>
+  </div>
+</div>
+
+<h3>Transportation</h3>
+<p>You may drive yourself to the surgery center, but <strong>you must have someone to drive you home</strong> and <strong>stay with you the first night.</strong> General anesthesia impairs judgment for 24 hours.</p>
+
+<h3>Work Paperwork</h3>
+<p>If you need employer documentation (work excuse, FMLA, disability forms), let the office know. Paperwork can be completed before surgery or at your post-operative visit.</p>
+```
+
+  </div>
+</section>
+
+<!-- ══ SECTION 10: Surgery Day ══ -->
+
+<section class="content-section alt" id="surgery-day">
+  <div class="container-narrow">
+    <p class="section-label">The day of your procedure</p>
+    <h2>What Happens on Surgery Day</h2>
+    <div class="surgery-day-steps">
+      <div class="sd-step">
+        <div class="sd-time">Arrival</div>
+        <div class="sd-desc"><strong>Check in 1&ndash;2 hours before your scheduled time.</strong> IV placed, nursing and anesthesia team meet you, Dr. Kakarla visits to mark the hernia site and answer last questions.</div>
+      </div>
+      <div class="sd-step">
+        <div class="sd-time">Surgery</div>
+        <div class="sd-desc"><strong>The procedure takes 30&ndash;60 minutes</strong> for most hernias (longer for large, complex, or recurrent repairs). Under general anesthesia, Dr. Kakarla makes 3 small incisions on the side of the abdomen. The hernia contents are reduced back into the abdomen, the defect edges are sutured closed, and mesh is placed to reinforce the repair. A <strong>TAP block</strong> (numbing injection in the abdominal wall) is performed during surgery for post-operative pain control.</div>
+      </div>
+      <div class="sd-step">
+        <div class="sd-time">Closure</div>
+        <div class="sd-desc"><strong>Incisions sealed with Dermabond</strong> (medical skin adhesive) &mdash; no stitches or staples to remove. Waterproof, sloughs off naturally in 5&ndash;10 days. Brief shower the same day is fine (no soaking). An <strong>abdominal binder</strong> is placed before you leave.</div>
+      </div>
+      <div class="sd-step">
+        <div class="sd-time">Recovery</div>
+        <div class="sd-desc"><strong>1&ndash;2 hours in the recovery area.</strong> Most patients report mild to moderate soreness. Once you can walk and drink fluids, <strong>you go home the same day.</strong> Large or complex repairs may require an overnight stay at Northside Hospital Gwinnett.</div>
+      </div>
+      <div class="sd-step">
+        <div class="sd-time">At home</div>
+        <div class="sd-desc">Walking encouraged. Have your companion stay overnight. Do not drive, operate machinery, or make important decisions for 24 hours.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SECTION 11: Recovery ══ -->
+
+<section class="content-section" id="recovery">
+  <div class="container-narrow">
+    <p class="section-label">After your surgery</p>
+    <h2>Recovery Timeline</h2>
+    <div class="recovery-timeline">
+      <div class="recovery-phase">
+        <div class="phase-label"><span class="phase-label-text">Days 1&ndash;3</span><span class="phase-label-sub">Early recovery</span></div>
+        <div class="phase-content">Mild to moderate soreness at incision sites and the hernia area. Bruising and swelling are normal. Walking encouraged &mdash; helps with gas pain and prevents blood clots. Milk of magnesia typically prescribed to prevent constipation.</div>
+      </div>
+      <div class="recovery-phase">
+        <div class="phase-label"><span class="phase-label-text">Days 4&ndash;7</span><span class="phase-label-sub">Steady improvement</span></div>
+        <div class="phase-content">Pain decreases. Most patients manage with over-the-counter acetaminophen and ibuprofen. Driving when off prescription pain medication and comfortable.</div>
+      </div>
+      <div class="recovery-phase">
+        <div class="phase-label"><span class="phase-label-text">Week 1&ndash;2</span><span class="phase-label-sub">Back to work</span></div>
+        <div class="phase-content">Many desk workers return to work. <strong>Follow-up visit with Dr. Kakarla</strong> within 1&ndash;2 weeks to check incisions and review recovery. <strong>No lifting more than 10 pounds for 4 weeks.</strong></div>
+      </div>
+      <div class="recovery-phase">
+        <div class="phase-label"><span class="phase-label-text">Weeks 3&ndash;4</span><span class="phase-label-sub">Gradual return</span></div>
+        <div class="phase-content">Most patients gradually return to full activity based on comfort and surgeon guidance. Abdominal binder discontinued at 4 weeks unless otherwise directed.</div>
+      </div>
+    </div>
+
+```
+<h3>Abdominal Binder</h3>
+<p>An abdominal binder (supportive wrap) is provided after surgery. <strong>Wear it when you are up and active for the first 4 weeks.</strong> You do not need to wear it while sleeping or resting. The binder supports the repair, reduces swelling, and improves comfort during recovery.</p>
+
+<div class="alert-emergency" style="margin-top:2rem">
+  <p class="alert-emergency-title">When to call after surgery</p>
+  <p><strong>Call our office first</strong> for: fever over 101.5&deg;F &middot; worsening pain at the hernia site &middot; increasing redness, swelling, or drainage from incisions &middot; a new bulge at or near the repair site &middot; inability to keep fluids down &middot; severe bloating. We can often evaluate you quickly and advise on next steps.</p>
+  <p style="margin-top:.75rem"><strong>Call 911</strong> for: chest pain or difficulty breathing &middot; fainting &middot; sudden leg swelling with pain.</p>
+  <p style="margin-top:.75rem;font-size:.85rem">For routine questions, call <a href="tel:(770) 962-9977" style="color:var(--red-700)">(770) 962-9977</a> during office hours.</p>
+</div>
+
+<h3 style="margin-top:2rem">Common Activity Questions</h3>
+<div class="content-card">
+  <ul class="prep-list">
+    <li><strong>Driving</strong> &mdash; when off narcotic pain medication and comfortable (typically day 4&ndash;7)</li>
+    <li><strong>Desk work</strong> &mdash; most return within 1&ndash;2 weeks</li>
+    <li><strong>Physical labor</strong> &mdash; 4&ndash;6 weeks with gradual return</li>
+    <li><strong>Lifting</strong> &mdash; nothing over 10 lbs for 4 weeks</li>
+    <li><strong>Exercise</strong> &mdash; walking from day 1; gym/weights after 4 weeks with gradual increase</li>
+    <li><strong>Sexual activity</strong> &mdash; when comfortable and off prescription pain medication</li>
+    <li><strong>Showering</strong> &mdash; brief shower same day; no baths/pools until Dermabond sloughs off (5&ndash;10 days)</li>
+    <li><strong>Abdominal binder</strong> &mdash; wear when active for 4 weeks; remove for sleep</li>
+  </ul>
+</div>
+
+<div class="content-card blue" style="margin-top:1.5rem">
+  <h3 style="font-size:.88rem;margin-bottom:.5rem">Multimodal pain management</h3>
+  <p style="font-size:.88rem;color:var(--stone-600);margin:0;line-height:1.6">Dr. Kakarla uses an ERAS-based (enhanced recovery using multiple non-opioid strategies) multimodal approach: TAP block during surgery, scheduled acetaminophen and ibuprofen after. Most patients manage recovery with over-the-counter medication alone.</p>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- ══ SECTION 12: Risks ══ -->
+
+<section class="content-section alt" id="risks">
+  <div class="container-narrow">
+    <p class="section-label">Understanding the risks</p>
+    <h2>Possible Risks and Complications</h2>
+    <p>Ventral hernia repair is a common, well-studied operation. Serious complications are uncommon, but no surgery is risk-free:</p>
+    <div class="content-card">
+      <ul class="prep-list">
+        <li><strong>Seroma</strong> (fluid collection at the hernia site) &mdash; common, usually resolves on its own. The body naturally fills the space where the hernia was. Most seromas are harmless and absorb over weeks</li>
+        <li><strong>Hernia recurrence</strong> &mdash; can occur, especially in patients who are overweight, smoke, or have had multiple prior repairs. Risk is lower with mesh reinforcement and robotic technique</li>
+        <li><strong>Infection</strong> &mdash; uncommon with minimally invasive technique</li>
+        <li><strong>Bleeding or hematoma</strong> &mdash; usually minor and self-limited</li>
+        <li><strong>Chronic pain</strong> &mdash; uncommon; most patients have less pain after repair than before</li>
+        <li><strong>Mesh-related complications</strong> &mdash; rare; may include mesh infection or mesh migration</li>
+        <li><strong>Bowel injury</strong> &mdash; rare</li>
+        <li><strong>Blood clots</strong> &mdash; rare; early walking reduces risk</li>
+        <li><strong>Conversion to open surgery</strong> &mdash; uncommon with robotic technique</li>
+        <li><strong>Anesthesia risks</strong> &mdash; discussed with your anesthesiologist</li>
+      </ul>
+    </div>
+    <p>Dr. Kakarla discusses your individual risk profile during consultation. Your specific risks, benefits, and alternatives are reviewed before you consent to surgery.</p>
+    <p style="font-size:.88rem;color:var(--stone-500)">This information is general and may not apply to every patient. Your own risks, benefits, and recovery plan will be discussed with you in person before surgery.</p>
+  </div>
+</section>
+
+<!-- ══ SECTION 13: Cost ══ -->
+
+<section class="content-section" id="cost">
+  <div class="container-narrow">
+    <p class="section-label">Practical details</p>
+    <h2>Ventral Hernia Surgery Cost and Insurance</h2>
+    <div class="content-card">
+      <ul class="symptom-list">
+        <li><strong>Medicare and Medicaid</strong> &mdash; typically covered, subject to your plan rules and patient responsibility (deductible, copay, coinsurance)</li>
+        <li><strong>Commercial insurance</strong> &mdash; Aetna, Anthem/BCBS, Cigna, Humana, UnitedHealthcare, Tricare, and most major plans</li>
+        <li><strong>We verify your benefits</strong> before scheduling &mdash; you know your out-of-pocket cost upfront</li>
+        <li><strong>No referral needed</strong> unless your specific insurance plan requires one</li>
+      </ul>
+    </div>
+    <p><a href="/patient-resources/insurance-billing/">Full insurance information &rarr;</a></p>
+  </div>
+</section>
+
+<!-- ══ SECTION 14: FAQ ══ -->
+
+<section class="content-section alt" id="faq">
+  <div class="container-narrow">
+    <p class="section-label">Common questions</p>
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-section">
+
+```
+  <details class="faq-item">
+    <summary>Do all ventral hernias need surgery?</summary>
+    <div class="faq-answer"><p>Not all. Very small, asymptomatic ventral hernias may be monitored with regular check-ups (watchful waiting). However, hernias tend to enlarge over time, and elective repair when you are healthy carries significantly lower risk than emergency repair. Dr. Kakarla discusses your options and decides together with you on the best approach.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Can a ventral hernia heal on its own?</summary>
+    <div class="faq-answer"><p>No. Unlike some childhood umbilical hernias, adult ventral hernias do not close on their own. The opening in the abdominal wall persists and typically enlarges over time. Surgery is the only permanent repair.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Will I need mesh?</summary>
+    <div class="faq-answer"><p>Most ventral hernia repairs use mesh to reinforce the repair and significantly reduce the chance of recurrence. For very small defects, suture-only repair may be considered. Dr. Kakarla discusses mesh options during your consultation.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>I had a hernia repaired before and it came back. Can it be fixed again?</summary>
+    <div class="faq-answer"><p>Yes. Dr. Kakarla has extensive experience repairing recurrent hernias, including those from other surgeons. Recurrent repairs are more complex but the robotic platform&rsquo;s precision is particularly valuable when working through scar tissue from prior operations.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>What is the fluid collection or swelling I feel after surgery?</summary>
+    <div class="faq-answer"><p>This is most likely a seroma &mdash; a collection of fluid in the space where the hernia was. Seromas are very common after ventral hernia repair and are not dangerous. The body naturally fills this space with fluid as it heals. Most seromas absorb on their own over several weeks. Only rarely is drainage needed.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Why do I need an abdominal binder?</summary>
+    <div class="faq-answer"><p>The binder supports the repair, reduces swelling, and improves comfort during the first 4 weeks. Wear it when you are up and active. You do not need to wear it while sleeping or resting at home.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>What happens at my first appointment?</summary>
+    <div class="faq-answer"><p>Dr. Kakarla examines your hernia, reviews any prior imaging or surgical records, and explains your options. Most hernias are diagnosed by physical exam alone. If a CT scan is needed for surgical planning, it is ordered at that visit. The visit typically takes about 30 minutes.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Will I be asleep during surgery?</summary>
+    <div class="faq-answer"><p>Robotic repairs are performed under general anesthesia. Very small open repairs may be done under local anesthesia with sedation. A board-certified anesthesiologist monitors you throughout. A TAP block provides long-lasting pain relief after you wake up.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>How much pain should I expect?</summary>
+    <div class="faq-answer"><p>Most patients describe mild to moderate soreness that improves over the first few days. Some bruising and swelling at the hernia site is normal. The TAP block provides significant relief for the first 12&ndash;24 hours. Most patients manage with Tylenol and ibuprofen.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Do I need to shave before surgery?</summary>
+    <div class="faq-answer"><p>No. The surgical team handles any necessary hair removal with medical-grade clippers immediately before the procedure.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Will I have stitches to remove?</summary>
+    <div class="faq-answer"><p>No. Incisions are closed with Dermabond medical skin adhesive, which naturally sloughs off in 5&ndash;10 days.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>When can I shower after surgery?</summary>
+    <div class="faq-answer"><p>Brief shower the same day is fine &mdash; the Dermabond is water-resistant. No baths, hot tubs, or pools until the adhesive has sloughed off (5&ndash;10 days).</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>I&rsquo;ve seen TV ads about hernia mesh lawsuits. Should I be concerned?</summary>
+    <div class="faq-answer"><p>The lawsuits primarily involve older-generation mesh products and vaginal mesh &mdash; a completely different device. Modern hernia mesh like the composite mesh Dr. Kakarla uses has been refined significantly and remains the standard of care endorsed by all major surgical societies.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>I see negative stories online about hernia surgery. Should I be worried?</summary>
+    <div class="faq-answer"><p>Patients who recover uneventfully &mdash; which is the vast majority &mdash; rarely post about their experience. Patients who have complications are far more likely to share their stories, creating a selection bias. Your outcome depends on your specific hernia, the surgical technique used, and the experience of your surgeon.</p></div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Do I need a referral or to see my PCP first?</summary>
+    <div class="faq-answer"><p>No. You can call our office directly to schedule an evaluation. You do not need to see your primary care doctor first, and you do not need any testing done before your visit &mdash; unless your specific insurance plan requires a referral.</p></div>
+  </details>
+
+</div>
+
+<details class="consult-questions">
+  <summary>Questions to bring to your consultation</summary>
+  <ol class="consult-questions-list">
+    <li>How large is my hernia, and what approach do you recommend?</li>
+    <li>Will this be robotic or open surgery?</li>
+    <li>Will I need mesh?</li>
+    <li>Is this an outpatient procedure or will I stay overnight?</li>
+    <li>When can I return to my specific job?</li>
+    <li>What are the chances of recurrence?</li>
+    <li>I had a prior repair that failed &mdash; what will you do differently?</li>
+    <li>What is my out-of-pocket cost after insurance?</li>
+  </ol>
+</details>
+
+<div class="author-block">
+  <img src="/images/dr-kakarla.jpg" alt="Dr. Venkata Kakarla" class="author-avatar" width="56" height="56" loading="lazy">
+  <div class="author-info">
+    <strong>Medically reviewed by <a href="/about/">Dr. Venkata Kakarla, MD, FACS</a></strong>
+    Fellowship-trained robotic surgeon &middot; Board Certified, American Board of Surgery &middot; Surgical experience across three continents<br>
+    Last reviewed: <time datetime="2026-03">March 2026</time>
+  </div>
+</div>
+```
+
+  </div>
+</section>
+
+</main>
+
+<div class="related-strip">
+  <div class="related-strip-inner">
+    <p class="related-strip-label">Related pages</p>
+    <div class="related-pills">
+      <a href="/conditions/umbilical-hernia/" class="related-pill">Umbilical Hernia</a>
+      <a href="/conditions/incisional-hernia/" class="related-pill">Incisional Hernia</a>
+      <a href="/conditions/inguinal-hernia/" class="related-pill">Inguinal Hernia</a>
+      <a href="/procedures/robotic/" class="related-pill">Robotic Surgery</a>
+      <a href="/procedures/abdominal-wall-reconstruction/" class="related-pill">Abdominal Wall Reconstruction</a>
+      <a href="/patient-resources/before-surgery/" class="related-pill">Before Surgery</a>
+      <a href="/patient-resources/after-surgery/" class="related-pill">After Surgery</a>
+    </div>
+  </div>
+</div>
+
+<div class="cta-strip">
+  <div class="container-narrow">
+    <h2>Ready to Take the Next Step?</h2>
+    <p>Same-day and next-day appointments available. We verify your insurance before your first visit.</p>
+    <div class="cta-actions">
+      <a href="tel:(770) 962-9977" class="btn btn-primary">Call (770) 962-9977</a>
+      <a href="/request-appointment/" class="btn btn-outline">Request a Callback</a>
+    </div>
+  </div>
+</div>
+
+<script>
+// Force all <details> open when printing, restore after
+(function(){
+  var origStates = [];
+  window.addEventListener('beforeprint', function(){
+    origStates = [];
+    document.querySelectorAll('details').forEach(function(d){
+      origStates.push(d.open);
+      d.open = true;
+    });
+  });
+  window.addEventListener('afterprint', function(){
+    document.querySelectorAll('details').forEach(function(d, i){
+      if(i < origStates.length) d.open = origStates[i];
+    });
+  });
+})();
+</script>
+
+</body>
 </html>
